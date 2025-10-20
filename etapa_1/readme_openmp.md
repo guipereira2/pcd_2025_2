@@ -91,7 +91,10 @@ Abra o arquivo openmp.ipynb e execute todas as células.
 
 ### Opção 2: Execução Automática via Linha de Comando
 
+```
+
 jupyter nbconvert --execute --to notebook --inplace sequencial.ipynb
+```
 
 --- 
 

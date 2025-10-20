@@ -98,11 +98,13 @@ git clone https://github.com/guipereira2/pcd_2025_2.git
 ```
 
 Navegue até a pasta do projeto 
+
 ```
 cd pcd_2025_2
 ```
 
 Navegue até a pasta do etapa desejada
+
 ```
 cd etapa_X
 ```
@@ -119,6 +121,7 @@ Abra o arquivo xxxx.ipynb e execute todas as células.
 
 ### Opção 2: Execução Automática via Linha de Comando
 
+```
 jupyter nbconvert --execute --to notebook --inplace xxxx.ipynb
---- 
+```
 
